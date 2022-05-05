@@ -1,7 +1,70 @@
-<html>
-  <head>
-  </head>
-  <body>
-    Hello World!
-  </body>
+<!DOCTYPE HTML>
+<html lang="en-CA">
+
+<head>
+  <title>Amaznot</title>
+  <meta name="description" content="HackConcordia Mood Board">
+  <meta name="keywords" content="HackConcordia Mood Board">
+  <meta name="author" content="HackConcordia Design Team">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8">
+
+  <!--BOOTSTRAP-->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://kit.fontawesome.com/6ebd7b3ed7.js" crossorigin="anonymous"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+  <!--GOOGLE APIS-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans|Work+Sans:300">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
+  <!--ICONS-->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.7/css/all.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/js/solid.min.js">
+
+  <!--EXTERNAL STYLESHEET-->
+  <link rel="stylesheet" href="/index.css">
+
+  <!--EXTERNAL SCRIPTS-->
+  <script src="/index.js"></script>
+
+  <!--FAVICON-->
+
+  <!--SMOOTH SCROLLING CROSS-BROWSER-->
+  <!--add smooth scrolling sitewide-->
+  <script>
+    $(document).ready(function() {
+      $("a").on('click', function(event) {
+        if (this.hash !== "") {
+          event.preventDefault();
+          var hash = this.hash;
+          $('html, body').animate({
+            scrollTop: $(hash).offset().top
+          }, 800, function() {
+            window.location.hash = hash;
+          });
+        } // End if
+      });
+    });
+  </script>
+
+</head>
+
+<body>
+  <!--NAVBAR-->
+  <!--END NAVBAR-->
+
+  <!--CONTENT-->
+  <!--END CONTENT-->
+
+  <!--FOOTER-->
+
+  <!--END FOOTER-->
+  </div>
+</body>
 </html>
