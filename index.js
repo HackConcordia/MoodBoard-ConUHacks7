@@ -33,4 +33,35 @@ window.addEventListener('DOMContentLoaded', event => {
 
 });
 
+
+function animateById (elemID) {
+    switch (elemID) {
+        case 'tada': 
+            document.getElementById('tada').className = 'text-center animate__animated animate__tada';
+            break;
+        case 'flash': 
+            document.getElementById('flash').className = 'text-center animate__animated animate__flash';
+            break;
+        case 'flipInX': 
+            document.getElementById('flipInX').className = 'text-center animate__animated animate__flipInX';
+            break;
+        case 'lightSpeedInLeft': 
+            document.getElementById('lightSpeedInLeft').className = 'text-center animate__animated animate__lightSpeedInLeft';
+            break;
+        case 'lightSpeedInRight': 
+            document.getElementById('lightSpeedInRight').className = 'text-center animate__animated animate__lightSpeedInRight';
+            break;
+        case 'slideInLeft': 
+            document.getElementById('slideInLeft').className = 'text-center animate__animated animate__slideInLeft';
+            break;
+        case 'slideInRight': 
+            document.getElementById('slideInRight').className = 'text-center animate__animated animate__slideInRight';
+            break;
+    }
+}
+
+function clearClassName(elemID) {
+    document.getElementById(elemID).className = 'text-center';
+}
+
 //INSERT CONTENT HERE
